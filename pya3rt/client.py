@@ -7,33 +7,33 @@ from .image_influence import ImageInfluence
 from .listing import Listing
 
 ENDPOINTS = {
-    'text_suggest': 'https://api.a3rt.recruit-tech.co.jp/text_suggest/v2/predict',
+    'text_suggest': 'https://api.a3rt.recruit.co.jp/text_suggest/v2/predict',
     'text_classification': {
-        'classify': 'https://api.a3rt.recruit-tech.co.jp/text_classification/v1/classify',
-        'dataset': 'https://api.a3rt.recruit-tech.co.jp/text_classification/v1/dataset',
-        'model': 'https://api.a3rt.recruit-tech.co.jp/text_classification/v1/model',
-        'check_status': 'https://api.a3rt.recruit-tech.co.jp/text_classification/v1/check_status',
+        'classify': 'https://api.a3rt.recruit.co.jp/text_classification/v1/classify',
+        'dataset': 'https://api.a3rt.recruit.co.jp/text_classification/v1/dataset',
+        'model': 'https://api.a3rt.recruit.co.jp/text_classification/v1/model',
+        'check_status': 'https://api.a3rt.recruit.co.jp/text_classification/v1/check_status',
     },
     'listing': {
-        'get_upload_url': 'https://api.a3rt.recruit-tech.co.jp/listing/v1/get_upload_url',
-        'start_w2v': 'https://api.a3rt.recruit-tech.co.jp/listing/v1/start_w2v',
-        'status_w2v': 'https://api.a3rt.recruit-tech.co.jp/listing/v1/status_w2v',
-        'get_download_url': 'https://api.a3rt.recruit-tech.co.jp/listing/v1/get_download_url',
-        'cancel_w2v': 'https://api.a3rt.recruit-tech.co.jp/listing/v1/cancel_w2v',
+        'get_upload_url': 'https://api.a3rt.recruit.co.jp/listing/v1/get_upload_url',
+        'start_w2v': 'https://api.a3rt.recruit.co.jp/listing/v1/start_w2v',
+        'status_w2v': 'https://api.a3rt.recruit.co.jp/listing/v1/status_w2v',
+        'get_download_url': 'https://api.a3rt.recruit.co.jp/listing/v1/get_download_url',
+        'cancel_w2v': 'https://api.a3rt.recruit.co.jp/listing/v1/cancel_w2v',
     },
     'image_influence': {
         'scoring': {
-            'meat_score': 'https://api.a3rt.recruit-tech.co.jp/image_influence/v1/meat_score',
-            'image_score': 'https://api.a3rt.recruit-tech.co.jp/image_influence/v1/image_score',
+            'meat_score': 'https://api.a3rt.recruit.co.jp/image_influence/v1/meat_score',
+            'image_score': 'https://api.a3rt.recruit.co.jp/image_influence/v1/image_score',
         },
         'model': {
-            'get_upload_url': 'https://api.a3rt.recruit-tech.co.jp/image_influence/v1/get_upload_url',
-            'order_model': 'https://api.a3rt.recruit-tech.co.jp/image_influence/v1/order_model',
-            'status_model': 'https://api.a3rt.recruit-tech.co.jp/image_influence/v1/status_model',
+            'get_upload_url': 'https://api.a3rt.recruit.co.jp/image_influence/v1/get_upload_url',
+            'order_model': 'https://api.a3rt.recruit.co.jp/image_influence/v1/order_model',
+            'status_model': 'https://api.a3rt.recruit.co.jp/image_influence/v1/status_model',
         },
     },
-    'proofreading': 'https://api.a3rt.recruit-tech.co.jp/proofreading/v2/typo',
-    'talk': 'https://api.a3rt.recruit-tech.co.jp/talk/v1/smalltalk',
+    'proofreading': 'https://api.a3rt.recruit.co.jp/proofreading/v2/typo',
+    'talk': 'https://api.a3rt.recruit.co.jp/talk/v1/smalltalk',
 }
 
 

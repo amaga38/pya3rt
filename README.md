@@ -1,21 +1,22 @@
 # pya3rt
 
-[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)  
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
 
 pya3rt is an API wrapper for A3RT in Python.
 
 ## A3RT
-https://a3rt.recruit-tech.co.jp/  
+
+https://a3rt.recruit.co.jp/  
 A3RT (art) is an abbreviation for "ANALYTICS & ARTIFICIAL INTELLIGENCE API VIA RECRUIT TECHNOLOGIES".A3RT is a collective name for solutions that are projected to unify and maintain the logic of fields called artificial intelligence, which is represented by Deep Learning and others, among machinery learning, to the inside of the company.
 
 ## API
 
-* Text Suggest API
-* Text Classification API
-* Listing API
-* Image Influence API
-* Proofreading API
-* Talk API
+- Text Suggest API
+- Text Classification API
+- Listing API
+- Image Influence API
+- Proofreading API
+- Talk API
 
 ## Install
 
